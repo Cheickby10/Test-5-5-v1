@@ -1,21 +1,48 @@
-MIT License
 
-Copyright (c) 2026 Cheickby10
+## Améliorations clés apportées :
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+### 1. **Architecture modulaire**
+- Séparation claire des responsabilités
+- Facile à maintenir et étendre
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+### 2. **Modèle d'ensemble avancé**
+- Combinaison de 4 modèles différents
+- Pondération intelligente des prédictions
+- Scores de confiance détaillés
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+### 3. **Extraction robuste des données**
+- Regex adaptés à chaque format
+- Validation des données extraites
+- Métriques dérivées automatiques
+
+### 4. **API REST complète**
+- Endpoints pour chaque fonctionnalité
+- Documentation OpenAPI intégrée
+- Gestion des erreurs améliorée
+
+### 5. **Système de cache**
+- Performances améliorées
+- Réduction des calculs redondants
+- Gestion de la mémoire optimisée
+
+### 6. **Validation continue**
+- Monitoring des performances
+- Recalibration automatique
+- Logs détaillés
+
+### 7. **Configuration flexible**
+- Variables d'environnement
+- Poids ajustables
+- Support multi-formats
+
+## Pour déployer sur GitHub :
+
+1. Créez un nouveau repository sur GitHub
+2. Initialisez localement :
+```bash
+git init
+git add .
+git commit -m "Initial commit - FIFA Virtual Analytics Bot"
+git branch -M main
+git remote add origin https://github.com/votre-username/fifa-analytics-bot.git
+git push -u origin main
